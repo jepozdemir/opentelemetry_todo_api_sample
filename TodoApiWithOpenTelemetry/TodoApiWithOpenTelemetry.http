@@ -1,6 +1,20 @@
 @TodoApiWithOpenTelemetry_HostAddress = https://localhost:7028
 
+### Get All To-Do Items
 GET {{TodoApiWithOpenTelemetry_HostAddress}}/api/todo/
 Accept: application/json
 
-###
+### Get a Single To-Do Item by ID
+GET {{TodoApiWithOpenTelemetry_HostAddress}}/api/todo/1
+
+### Create a New To-Do Item
+POST {{TodoApiWithOpenTelemetry_HostAddress}}/api/todo
+Content-Type: application/json
+
+{
+    "title": "OpenTelemetry Test1",
+    "isCompleted": false
+}
+
+### Delete a To-Do Item
+DELETE {{TodoApiWithOpenTelemetry_HostAddress}}/api/todo/1
