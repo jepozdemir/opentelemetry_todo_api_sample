@@ -1,0 +1,6 @@
+@TodoApiWithOpenTelemetry_HostAddress = https://localhost:7028
+
+GET {{TodoApiWithOpenTelemetry_HostAddress}}/api/todo/
+Accept: application/json
+
+###
