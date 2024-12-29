@@ -1,13 +1,13 @@
+<p align="center">
+  <a href="https://opentelemetry.io">
+    <img src="https://opentelemetry.io/img/logos/opentelemetry-horizontal-color.svg" alt="OpenTelemetry logo" height="150">
+  </a>
+</p>
+
 ## Configuring OpenTelemetry Tracing for ASP.NET Core
 This repository contains code samples and techniques referenced in my Medium blog post, ["Configuring OpenTelemetry Tracing for ASP.NET Core"](https://medium.com/@jepozdemir/configuring-opentelemetry-tracing-for-asp-net-core-114c2c9cf557).
 
 This repository and relevant blog post focus on integrating and configuring [OpenTelemetry](https://github.com/open-telemetry) tracing in ASP.NET Core applications to improve observability and diagnostics.
-
-<p align="center">
-  <a href="https://opentelemetry.io">
-    <img src="https://opentelemetry.io/img/logos/opentelemetry-horizontal-color.svg" alt="OpenTelemetry logo" height="180">
-  </a>
-</p>
 
 ## Overview
 In this blog post, I explain how to set up OpenTelemetry tracing in an ASP.NET Core application. OpenTelemetry is an open standard for distributed tracing and observability, allowing developers to monitor and debug applications in distributed systems effectively.
